@@ -4,7 +4,7 @@ layout: default
 
 <style type="text/css" media="screen">
   .page-header {
-    background-image: url(./assets/images/duotone.jpg);
+    background-image: url(./assets/images/background-header.jpg);
     background-position: 50%;
     background-size: cover;
     height: 100vh;
@@ -14,7 +14,8 @@ layout: default
 
 <div class="container">
   <h1 class="text-center">A hackathon to make a difference.</h1>
-  <p  class="text-center">Coming Fall 2018</p>
+  <p  class="text-center"><strong>October 21-22, 2018</strong><br> Stoke Denton</p>
+  <hr>
   <p>
 	  	<!-- Begin MailChimp Signup Form -->
 	<link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
