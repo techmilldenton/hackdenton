@@ -9,7 +9,7 @@
       <div class="inner vertical-align">
         <img src="./assets/images/logo.svg" alt="Hack Denton logo" class="logo">
         <h1 class="project-name">{{ site.title | default: site.github.repository_name }}</h1>
-        <h2 class="project-tagline">{{ site.description | default: site.github.project_tagline }}</h2>
+        <h2 class="project-tagline">{{ page.description| site.description | default: site.github.project_tagline }}</h2>
       </div>
     </section>
     {% endif %}

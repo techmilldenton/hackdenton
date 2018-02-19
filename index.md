@@ -1,5 +1,6 @@
 ---
 layout: default
+description: Hack Denton is Denton's first civic technology hackathon <br> focused on addressing civic problems through technology.
 ---
 
 <style type="text/css" media="screen">
@@ -14,7 +15,7 @@ layout: default
 
 <div class="container">
   <h1 class="text-center">A hackathon to make a difference.</h1>
-  <p  class="text-center"><strong>October 21-22, 2018</strong><br> Stoke Denton</p>
+  <p  class="text-center"><strong>October 20-21, 2018</strong><br> Stoke Denton</p>
   <hr>
   <p>
 	  	<!-- Begin MailChimp Signup Form -->
