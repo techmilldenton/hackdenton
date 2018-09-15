@@ -14,23 +14,36 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Hack Denton
-email: kyletaylored+hack@gmail.com
+email: techmilldenton@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Hack Denton is Denton's first civic technology hackathon focused on addressing civic problems through technology.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.hackdenton.com" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: hackdenton
-github_username:  techmilldenton
-facebook_username:  hackdenton
 
+# Social and analytics
+twitter_username: techmilldenton
+github_username:  techmilldenton
+facebook_username:  techmilldenton
 google_analytics: UA-51689839-5
 
 # Build settings
 markdown: kramdown
-theme: jekyll-theme-cayman
+theme: minima
 plugins:
   - jekyll-feed
   - jekyll-admin
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+sass:
+  sass_dir: ./_scss
+  # style: compressed
+
+# Theme specific settings
+theme_settings:
+  preloader: false # boolean
+  animations: true # boolean
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
