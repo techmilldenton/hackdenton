@@ -1,0 +1,63 @@
+<!-- CDN Scripts -->
+<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-one-page-nav/3.0.0/jquery.nav.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.inview/1.0.0/jquery.inview.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/stellar.js/0.6.2/jquery.stellar.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/maplace-js/0.2.10/maplace.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ResponsiveSlides.js/1.55/responsiveslides.min.js"></script>
+
+
+<!-- Google Maps -->
+<script src="//maps.google.com/maps/api/js"></script>
+
+<!-- Custom -->
+<script src="{{ "/js/script.js" | prepend: site.baseurl }}"></script>
+
+
+{% if site.add_this %}
+<!-- Go to www.addthis.com/dashboard to customize your tools -->
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid={{ site.add_this}}" async="async"></script>
+{% endif %}
+
+{% if site.disqus_shortname %}
+ {% include  disqus.html %}
+{% endif %}
+
+
+<!-- Google Structured Data -->
+<script type='application/ld+json'> 
+{
+  "@context": "http://www.schema.org",
+  "@type": "Event",
+  "name": "Hack Denton",
+  "url": "https://www.hackdenton.com",
+  "description": "Hack Denton is Denton's first civic technology hackathon focused on addressing civic problems through technology.",
+  "startDate": "2018-11-30T18:30",
+  "endDate": "2018-12-01T20:00",
+  "location": {
+    "@type": "Place",
+    "name": "Stoke Coworking",
+    "sameAs": "http://stokedenton.com",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "608 E. Hickory #128",
+      "addressLocality": "Denton",
+      "addressRegion": "Texas",
+      "postalCode": "76205",
+      "addressCountry": "USA"
+    }
+  },
+  "offers": {
+    "@type": "Offer",
+    "description": "Participant",
+    "url": "https://www.eventbrite.com/e/hack-denton-tickets-50109987321",
+    "price": "15.00",
+    "priceCurrency": "USD",
+    "availability": "http://schema.org/InStock",
+    "validFrom": "09/10/2018"
+    "image": "images/og.jpg",
+  }
+}
+ </script>

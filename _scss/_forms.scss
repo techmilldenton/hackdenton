@@ -1,0 +1,152 @@
+/**
+ * ========================================
+ * FORMS
+ * ========================================
+ */
+ .form-heading {
+	position: relative;
+	padding-bottom: 20px;
+	margin: 0 0 30px;
+	font-family: "Montserrat", sans-serif;
+	font-size: 20px;
+	letter-spacing: 0.05em;
+	text-transform: uppercase;
+	&:after {
+		content: "";
+		position: absolute;
+		left: 0;
+		bottom: 0;
+		display: block;
+		height: 2px;
+		width: 60px;
+		background-color: rgba(0,0,0,0.1);
+	}
+	&.text-center {
+		&:after {
+			left: 50%;
+			margin-left: -30px;
+		}
+	}
+}
+.section-dark .form-heading:after,
+.section-accent .form-heading:after {
+	background-color: rgba(255,255,255,0.2);
+}
+.form-group {
+	margin: 20px 0;
+	& > label {
+		font-family: "Montserrat", sans-serif;
+		font-size: 12px;
+		font-weight: normal;
+		letter-spacing: 0.05em;
+		text-transform: uppercase;
+	}
+}
+.form-group-submit {
+	margin-top: 30px;
+}
+.form-control {
+	border-radius: 0;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	font-size: inherit;
+	line-height: inherit;
+	height: 40px;
+	padding: 6px 12px;
+	color: #444;
+	border-color: #ccc;
+	background-color: rgba(255,255,255,0.85);
+	&::-webkit-input-placeholder {
+		color: #888;
+	}
+	&:-moz-placeholder {
+		color: #888;
+	}
+	&::-moz-placeholder {
+		color: #888;
+	}
+	&:-ms-input-placeholder {
+		color: #888;
+	}
+	&:focus {
+		-webkit-box-shadow: none;
+		box-shadow: none;
+		border-color: #aaa;
+		background-color: #fff;
+	}
+}
+.section-dark {
+	.form-control {
+		border-color: #aaa;
+		&:focus {
+			border-color: #ccc;
+		}
+	}
+}
+.section-accent {
+	.form-control {
+		border-color: rgba(0,0,0,0.05);
+		&:focus {
+			border-color: rgba(0,0,0,0.1);
+		}
+	}
+}
+.form-control-lg {
+	font-size: 17px;
+	line-height: 30px;
+	height: 60px;
+	padding: 14px 24px;
+}
+.form-validation {
+	display: none;
+	padding: 11.5px 17px;
+	border-radius: 0;
+	&:empty {
+		display: none !important;
+	}
+	&.alert-danger {
+		color: #fff;
+		background-color: #a94442;
+		background-color: rgba(169,68,66,0.8);
+		border-color: #a94442;
+	}
+	&.alert-success {
+		color: #fff;
+		background-color: #3c763d;
+		background-color: rgba(60,118,61,0.8);
+		border-color: #3c763d;
+	}
+}
+.subscription-form {
+	margin-top: 30px;
+}
+
+@media ( max-width: 767px ) {
+	.subscription-form-input > * {
+		text-align: center;
+	}
+	.subscription-form-submit {
+		display: block;
+		margin-top: 15px;
+	}
+	.subscription-form-submit > * {
+		width: 100%;
+	}
+}
+@media ( min-width: 768px ) {
+	.subscription-form-wrapper {
+		display: table;
+		width: 100%;
+		margin: 0;
+	}
+	.subscription-form-submit {
+		display: table-cell;
+		vertical-align: middle;
+		padding-left: 15px;
+	}
+	.subscription-form-input {
+		display: table-cell;
+		vertical-align: middle;
+		width: 100%;
+	}
+}
