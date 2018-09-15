@@ -1,0 +1,186 @@
+<!-- CONTACT + MAPS
+================================= -->
+<section id="contact-maps" class="contact-maps-section section">
+
+  <div class="section-background">
+
+    <!-- MAPS BACKGROUND -->
+    <div class="section-background-maps">
+      <div id="gmap"></div>
+
+      <script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+      <!-- GOGGLE MAPS CONFIGURATION -->
+      <!-- ref: http://maplacejs.com/ -->
+      <script>
+      var gmap_options = {
+        generate_controls : false,
+        locations : [{
+          lat : 33.215689,
+          lon : -97.132556,
+          animation : google.maps.Animation.DROP,
+          html : "TechMill Coworking",
+          icon : "/images/contents/map-2.png",
+          clickable : false,
+        },{
+          lat : 33.215802,
+          lon : -97.133081,
+          animation : google.maps.Animation.DROP,
+          html : "LittleD Open Coffee Club",
+          icon : "/images/contents/map-3.png",
+          clickable : false,
+        },{
+          lat : 33.214608,
+          lon : -97.128704,
+          animation : google.maps.Animation.DROP,
+          html : "APIs & IPAs",
+          icon : "/images/contents/map-4.png",
+          clickable : false,
+        }],
+        map_options : {
+          scrollwheel : false,
+          mapTypeControl : false,
+          streetViewControl : false,
+          zoomControlOptions : {
+            style : google.maps.ZoomControlStyle.SMALL,
+          },
+          zoom : 17,
+          set_center : [ 33.2140288, -97.1264189 ], // adjust the "lon" attribute of your first location
+        },
+        styles : {
+          // source: https://snazzymaps.com/style/132/light-gray
+          // 'custom' : [{"featureType":"water","elementType":"geometry.fill","stylers":[{"color":"#d3d3d3"}]},{"featureType":"transit","stylers":[{"color":"#808080"},{"visibility":"off"}]},{"featureType":"road.highway","elementType":"geometry.stroke","stylers":[{"visibility":"on"},{"color":"#b3b3b3"}]},{"featureType":"road.highway","elementType":"geometry.fill","stylers":[{"color":"#ffffff"}]},{"featureType":"road.local","elementType":"geometry.fill","stylers":[{"visibility":"on"},{"color":"#ffffff"},{"weight":1.8}]},{"featureType":"road.local","elementType":"geometry.stroke","stylers":[{"color":"#d7d7d7"}]},{"featureType":"poi","elementType":"geometry.fill","stylers":[{"visibility":"on"},{"color":"#ebebeb"}]},{"featureType":"administrative","elementType":"geometry","stylers":[{"color":"#a7a7a7"}]},{"featureType":"road.arterial","elementType":"geometry.fill","stylers":[{"color":"#ffffff"}]},{"featureType":"road.arterial","elementType":"geometry.fill","stylers":[{"color":"#ffffff"}]},{"featureType":"landscape","elementType":"geometry.fill","stylers":[{"visibility":"on"},{"color":"#efefef"}]},{"featureType":"road","elementType":"labels.text.fill","stylers":[{"color":"#696969"}]},{"featureType":"administrative","elementType":"labels.text.fill","stylers":[{"visibility":"on"},{"color":"#737373"}]},{"featureType":"poi","elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"featureType":"poi","elementType":"labels","stylers":[{"visibility":"off"}]},{"featureType":"road.arterial","elementType":"geometry.stroke","stylers":[{"color":"#d6d6d6"}]},{"featureType":"road","elementType":"labels.icon","stylers":[{"visibility":"off"}]},{},{"featureType":"poi","elementType":"geometry.fill","stylers":[{"color":"#dadada"}]}],
+          'custom' : [{"featureType":"all","elementType":"labels","stylers":[{"visibility":"off"}]},{"featureType":"landscape","elementType":"all","stylers":[{"visibility":"on"},{"color":"#f3f4f4"}]},{"featureType":"landscape.man_made","elementType":"geometry","stylers":[{"weight":0.9},{"visibility":"off"}]},{"featureType":"poi.park","elementType":"geometry.fill","stylers":[{"visibility":"on"},{"color":"#83cead"}]},{"featureType":"road","elementType":"all","stylers":[{"visibility":"on"},{"color":"#ffffff"}]},{"featureType":"road","elementType":"labels","stylers":[{"visibility":"off"}]},{"featureType":"road.highway","elementType":"all","stylers":[{"visibility":"on"},{"color":"#fee379"}]},{"featureType":"road.arterial","elementType":"all","stylers":[{"visibility":"on"},{"color":"#fee379"}]},{"featureType":"water","elementType":"all","stylers":[{"visibility":"on"},{"color":"#7fc8ed"}]}]
+        },
+      };
+      </script>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="contact-maps-row row">
+      <div class="col-md-7 col-md-offset-5">
+
+        <div class="contact-maps-box" data-animation="fadeIn">
+
+          <h2 class="section-heading">Contact Us</h2>
+          <p>
+            <ul>
+              <li>Looking for help or advice on a project?</li>
+              <li>Interested in giving a lightning talk?</li>
+              <li>Wanting to share a special recipe? <small>(Maybe don't contact us...)</small></li>
+          </p>
+
+          <div class="row">
+            <address class="col-sm-6">
+              <strong>TechMill Coworking</strong>
+              <ul class="fa-ul">
+                <li><i class="fa-li fa fa-home"></i>100 W Oak St #200,<br>Denton, TX 76201</li>
+                <li><i class="fa-li fa fa-email"></i>Email: info@techmill.co</li>
+              </ul>
+            </address>
+            <address class="col-sm-6">
+              <strong>Bootstrap Denton</strong>
+              <ul class="fa-ul">
+                <li><i class="fa-li fa fa-home"></i>Harvest House<br>331 E Hickory St,<br>Denton, TX 76201</li>
+              </ul>
+            </address>
+          </div>
+
+          <form name="contact" action="//formspree.io/kyle@techmill.co" method="post" class="form form-ajax-submit">
+            <p><strong>Or drop us a line here:</strong></p>
+            <div class="form-validation alert"></div>
+            <div class="form-group">
+              <input type="text" name="contact-name" class="form-control" placeholder="Your Name">
+            </div>
+            <div class="form-group">
+              <input type="text" name="contact-email" class="form-control" placeholder="Email Address">
+            </div>
+            <div class="form-group">
+              <input type="text" name="contact-subject" class="form-control" placeholder="Subject">
+            </div>
+            <div class="form-group">
+              <textarea name="contact-message" class="form-control" placeholder="Message" rows="5"></textarea>
+            </div>
+            <div class="form-group">
+              <button class="btn btn-primary btn-lg btn-block">Send Message</button>
+            </div>
+          </form>
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+</section>
+
+<!-- CLOSING
+================================= -->
+<section id="closing" class="closing-section section-dark section">
+
+  <div class="section-background">
+
+    <!-- IMAGE BACKGROUND -->
+    <div class="section-background-image parallax" data-stellar-ratio="0.4">
+      <img src="/images/backgrounds/closing-bg.jpg" alt="" style="opacity: 0.2;">
+    </div>
+
+  </div>
+
+  <div class="container">
+
+    <h3 class="closing-shout">Want to get involved today?</h3>
+
+    <div class="closing-buttons" data-animation="tada"><a href="http://www.meetup.com/StartupDentonTech/" class="btn btn-lg btn-primary meet-up-but" target="_blank">Come to a meetup!</a></div>
+
+  </div>
+
+</section>
+
+
+<!-- FOOTER -->
+<footer id="footer" class="footer-section section">
+
+  <div class="container">
+    <div col-md-4>
+      <h3 class="footer-logo">
+        <img src="/images/logos/footer-logo.png" srcset="/images/logos/footer-logo@2x.png 2x" alt="Bootstrap Denton">
+      </h3>
+    </div>
+
+    <div col-md-4>
+      <div class="footer-socmed">
+        <a href="mailto:{{ site.email }}">
+          <span class="icon fa fa-paper-plane"></span>
+        </a>
+        {% if site.facebook_username %}
+        <a href="https://facebook.com/{{ site.facebook_username }}" target="_blank">
+          <span class="icon fa fa-facebook"></span>
+        </a>
+        {% endif %}
+        {% if site.twitter_username %}
+        <a href="https://twitter.com/{{ site.twitter_username }}">
+          <span class="icon fa fa-twitter"></span>
+        </a>
+        {% endif %}
+        {% if site.github_username %}
+        <a href="https://github.com/{{ site.github_username }}" target="_blank">
+          <span class="icon fa fa-github"></span>
+        </a>
+        {% endif %}
+        <a href="{{ "/feed.xml" | prepend: site.baseurl }}">
+          <span class="icon fa fa-rss"></span>
+        </a>
+      </div>
+    </div>
+
+    <div col-md-4>
+      <p class="text">{{ site.description }}</p>
+      <div class="footer-copyright">
+        &copy; 2015 Bootstrap Denton
+      </div>
+    </div>
+
+  </div>
+
+</footer>

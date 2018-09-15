@@ -1,0 +1,110 @@
+@media only screen and (min-width: 360px) {
+  .flow-text {
+    font-size: 18px;
+  }
+}
+@media only screen and (min-width: 390px) {
+  .flow-text {
+    font-size: 23.8px;
+  }
+}
+@media only screen and (min-width: 420px) {
+  .flow-text {
+    font-size: 33.6px;
+  }
+}
+@media only screen and (min-width: 450px) {
+  .flow-text {
+    font-size: 43.4px;
+  }
+}
+@media only screen and (min-width: 480px) {
+  .flow-text {
+    font-size: 53.2px;
+  }
+}
+@media only screen and (min-width: 510px) {
+  .flow-text {
+    font-size: 63px;
+  }
+}
+@media only screen and (min-width: 540px) {
+  .flow-text {
+    font-size: 72.8px;
+  }
+}
+@media only screen and (min-width: 570px) {
+  .flow-text {
+    font-size: 82.6px;
+  }
+}
+@media only screen and (min-width: 600px) {
+  .flow-text {
+    font-size: 92.4px;
+  }
+}
+@media only screen and (min-width: 630px) {
+  .flow-text {
+    font-size: 102.2px;
+  }
+}
+@media only screen and (min-width: 660px) {
+  .flow-text {
+    font-size: 112px;
+  }
+}
+@media only screen and (min-width: 690px) {
+  .flow-text {
+    font-size: 121.8px;
+  }
+}
+@media only screen and (min-width: 720px) {
+  .flow-text {
+    font-size: 131.6px;
+  }
+}
+@media only screen and (min-width: 750px) {
+  .flow-text {
+    font-size: 141.4px;
+  }
+}
+@media only screen and (min-width: 780px) {
+  .flow-text {
+    font-size: 151.2px;
+  }
+}
+@media only screen and (min-width: 810px) {
+  .flow-text {
+    font-size: 161px;
+  }
+}
+@media only screen and (min-width: 840px) {
+  .flow-text {
+    font-size: 170.8px;
+  }
+}
+@media only screen and (min-width: 870px) {
+  .flow-text {
+    font-size: 180.6px;
+  }
+}
+@media only screen and (min-width: 900px) {
+  .flow-text {
+    font-size: 190.4px;
+  }
+}
+@media only screen and (min-width: 930px) {
+  .flow-text {
+    font-size: 200.2px;
+  }
+}
+@media only screen and (min-width: 960px) {
+  .flow-text {
+    font-size: 210px;
+  }
+}
+@media only screen and (max-width: 360px) {
+  .flow-text {
+    font-size: 3rem;
+  }
+}

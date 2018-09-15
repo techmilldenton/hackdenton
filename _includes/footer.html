@@ -1,0 +1,71 @@
+
+<!-- CLOSING
+================================= -->
+<section id="closing" class="closing-section section-dark section">
+
+  <div class="section-background">
+
+    <!-- IMAGE BACKGROUND -->
+    <div class="section-background-image parallax" data-stellar-ratio="0.4">
+      <img src="/images/backgrounds/closing-bg.jpg" alt="" style="opacity: 0.2;">
+    </div>
+
+  </div>
+
+  <div class="container">
+
+    <h3 class="closing-shout">Want to get involved today?</h3>
+
+    <div class="closing-buttons" data-animation="tada"><a href="http://www.meetup.com/StartupDentonTech/" class="btn btn-lg btn-primary meet-up-but" target="_blank">Come to a meetup!</a></div>
+
+  </div>
+
+</section>
+
+
+<!-- FOOTER -->
+<footer id="footer" class="footer-section section">
+
+  <div class="container">
+    <div col-md-4>
+      <h3 class="footer-logo">
+        <img src="/images/logos/footer-logo.png" srcset="/images/logos/footer-logo@2x.png 2x" alt="Bootstrap Denton">
+      </h3>
+    </div>
+
+    <div col-md-4>
+      <div class="footer-socmed">
+        <a href="mailto:{{ site.email }}">
+          <span class="icon fa fa-paper-plane"></span>
+        </a>
+        {% if site.facebook_username %}
+        <a href="https://facebook.com/{{ site.facebook_username }}" target="_blank">
+          <span class="icon fa fa-facebook"></span>
+        </a>
+        {% endif %}
+        {% if site.twitter_username %}
+        <a href="https://twitter.com/{{ site.twitter_username }}">
+          <span class="icon fa fa-twitter"></span>
+        </a>
+        {% endif %}
+        {% if site.github_username %}
+        <a href="https://github.com/{{ site.github_username }}" target="_blank">
+          <span class="icon fa fa-github"></span>
+        </a>
+        {% endif %}
+        <a href="{{ "/feed.xml" | prepend: site.baseurl }}">
+          <span class="icon fa fa-rss"></span>
+        </a>
+      </div>
+    </div>
+
+    <div col-md-4>
+      <p class="text">{{ site.description }}</p>
+      <div class="footer-copyright">
+        &copy; 2015 Bootstrap Denton
+      </div>
+    </div>
+
+  </div>
+
+</footer>

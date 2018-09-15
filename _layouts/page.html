@@ -1,0 +1,32 @@
+---
+layout: default
+---
+<section class="page-section section">
+
+  <div class="container">
+    <header class="page-header">
+      <h2 class="section-heading text-center page-title">{{ page.title }}</h2>
+    </header>
+
+    {% if page.addthis == true %}
+    <div id="addthis-sharing" class="section clearfix">
+      <div class="addthis_sharing_toolbox"></div>
+    </div>
+    {% endif %}
+
+    <div class="row">
+
+      <!-- DESCRIPTION IMAGE -->
+      <!-- <div class="about-image col-md-12 fadeIn animated done-animation" data-animation="fadeIn">
+        <img src="/images/contents/about.jpg" alt="Description Image">
+      </div> -->
+
+      <!-- DESCRIPTION TEXT -->
+      <article class="page-content col-md-12">
+        {{ content }}
+      </article>
+
+    </div>
+  </div>
+
+</section>

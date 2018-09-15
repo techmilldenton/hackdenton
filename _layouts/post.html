@@ -1,0 +1,34 @@
+---
+layout: default
+---
+
+{% if page.author %}
+{% assign author = site.data.authors[page.author] %}
+{% endif %}
+
+<section class="page-section section">
+
+  <div class="container">
+    <header class="page-header">
+      <h2 class="section-heading text-center post-title">{{ page.title }}</h2>
+      <p class="post-meta">
+        <span>
+          {{ page.date | date: "%b %-d, %Y" }}
+          {% if page.author %} | <a href="{{ author.twitter }}" title="{{ author.name }}">{{ author.name }}</a> {% endif %}
+          {% if page.addthis == true %} | <div class="addthis_toolbox addthis_default_style" addthis:url="{{ page.url | prepend: site.baseurl }}" addthis:title="{{ page.title | xml_escape }}"> {% endif %}
+        </span>
+      </p>
+    </header>
+
+    <div class="post">
+      <article class="post-content">
+        {{ content }}
+      </article>
+    </div>
+
+  </div>
+
+</section>
+
+
+{% include comments.html %}
