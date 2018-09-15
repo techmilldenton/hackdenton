@@ -2,4 +2,23 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 // Import partials from `sass_dir` (defaults to `_sass`)
+// @import "base", "layout";
+// @import "syntax-highlighting";
+
+// Specialty
+@import "mixins";
+@import "animate";
+
+// Theme
 @import "style";
+@import "color";
+
+// Tweaks for embedded content
+#ticket_information_wrapper {
+	height: 200px;
+}
+
+.meet-up-but {
+	background-color: RGBA(229, 25, 55, 1);
+  border-color: #E51937;
+}
