@@ -44,3 +44,39 @@ description: Hack Denton is Denton's first civic technology hackathon <br> focus
 	<!--End mc_embed_signup-->
   </p>
 </div>
+
+<!-- Google Structured Data -->
+<script type='application/ld+json'>
+{
+  "@context": "http://www.schema.org",
+  "@type": "Event",
+  "name": "Hack Denton",
+  "url": "https://www.hackdenton.com",
+  "description": "Hack Denton is Denton's first civic technology hackathon focused on addressing civic problems through technology.",
+  "startDate": "2018-11-30T18:30",
+  "endDate": "2018-12-01T20:00",
+  "location": {
+    "@type": "Place",
+    "name": "Stoke Coworking",
+    "sameAs": "http://stokedenton.com",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "608 E. Hickory #128",
+      "addressLocality": "Denton",
+      "addressRegion": "Texas",
+      "postalCode": "76205",
+      "addressCountry": "USA"
+    }
+  },
+  "offers": {
+    "@type": "Offer",
+    "description": "Participant",
+    "url": "https://www.eventbrite.com/e/hack-denton-tickets-50109987321",
+    "price": "15.00",
+    "priceCurrency": "USD",
+    "availability": "http://schema.org/InStock",
+    "validFrom": "09/10/2018"
+    "image": "images/og.jpg",
+  }
+}
+ </script>
