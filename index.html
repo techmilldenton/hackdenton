@@ -1,681 +1,822 @@
----
-layout: index
----
-
-
-<!-- HERO
-  ================================= -->
-  <section id="hero" class="hero-section hero-layout-simple hero-fullscreen section section-dark">
-
-    <div class="section-background">
-
-      <!-- IMAGE BACKGROUND -->
-      <div class="section-background-image parallax" data-stellar-ratio="0.4">
-        <img src="/images/backgrounds/east-side.jpg" alt="East Side Denton" style="opacity: 0.3;">
-      </div>
-
-      <!-- VIDEO BACKGROUND -->
-    <!-- <div class="section-background-video section-background-dot-overlay parallax" data-stellar-ratio="0.4">
-    <video preload="auto" autoplay loop muted poster="images/backgrounds/video-fallback-bg.jpg" style="opacity: 0.3;">
-    <source type="video/mp4" src="videos/video-bg.mp4">
-    <source type="video/ogg" src="videos/video-bg.ogv">
-    <source type="video/webm" src="videos/video-bg.webm">
-    </video>
-  </div> -->
-
-  <!-- SLIDESHOW BACKGROUND -->
-    <!-- <ul class="section-background-slideshow parallax" data-stellar-ratio="0.4" data-speed="800" data-timeout="4000">
-    <li><img src="images/backgrounds/hero-bg-slideshow-1.jpg" alt="" style="opacity: 0.25;"></li>
-    <li><img src="images/backgrounds/hero-bg-slideshow-2.jpg" alt="" style="opacity: 0.25;"></li>
-    <li><img src="images/backgrounds/hero-bg-slideshow-3.jpg" alt="" style="opacity: 0.2;"></li>
-  </ul> -->
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- ========== Meta Tags ========== -->
+    <meta charset="UTF-8">
+    <meta name="description" content="Evento -Event Html Template">
+    <meta name="keywords" content="Evento , Event , Html, Template">
+    <meta name="author" content="ColorLib">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <!-- ========== Title ========== -->
+    <title> Evento - Event Html Template</title>
+    <!-- ========== Favicon Ico ========== -->
+    <!--<link rel="icon" href="fav.ico">-->
+    <!-- ========== STYLESHEETS ========== -->
+    <!-- Bootstrap CSS -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Fonts Icon CSS -->
+    <link href="assets/css/font-awesome.min.css" rel="stylesheet">
+    <link href="assets/css/et-line.css" rel="stylesheet">
+    <link href="assets/css/ionicons.min.css" rel="stylesheet">
+    <!-- Carousel CSS -->
+    <link href="assets/css/owl.carousel.min.css" rel="stylesheet">
+    <link href="assets/css/owl.theme.default.min.css" rel="stylesheet">
+    <!-- Animate CSS -->
+    <link rel="stylesheet" href="assets/css/animate.min.css">
+    <!-- Custom styles for this template -->
+    <link href="assets/css/main.css" rel="stylesheet">
+</head>
+<body>
+<div class="loader">
+    <div class="loader-outter"></div>
+    <div class="loader-inner"></div>
 </div>
 
-<div class="container">
-
-  <div class="hero-content">
-    <div class="hero-content-inner">
-
-      <div class="row">
-        <div class="col-md-10 col-md-offset-1">
-
-          <div class="hero-heading text-center" data-animation="fadeIn">
-
-            <h1 class="hero-title">Bootstrap <span class="color-primary font-pacifico capitalize" style="font-size:80px;">Denton</span></h1>
-            <hr>
-            <h3 class="hero-subtitle">A Tech Creative Mixer</h3>
-            <hr>
-            <div class="hero-date">August 18th | 6:30pm | Harvest House</div>
-
-          </div>
-
-          <p class="hero-buttons text-center">
-            <a href="#headline" class="btn btn-lg btn-default">Event Details</a>
-            <a href="https://www.eventbrite.com/e/bootstrap-denton-a-tech-creative-mixer-tickets-17232619228" class="btn btn-lg btn-primary">Register Now</a>
-          </p>
-
-        </div>
-      </div>
-
-    </div>
-  </div>
-
-</div>
-
-<!-- HERO START LINK -->
-<a href="#headline" class="hero-start-link anchor-link"><span class="fa fa-angle-double-down"></span></a>
-
-</section>
-
-<!-- HEADLINE
-  ================================= -->
-  <section id="headline" class="headline-section section-gray section">
-
+<!--header start here -->
+<header class="header navbar fixed-top navbar-expand-md">
     <div class="container">
+        <a class="navbar-brand logo" href="#">
+            <img src="assets/img/logo.png" alt="Evento"/>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#headernav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="lnr lnr-text-align-right"></span>
+        </button>
+        <div class="collapse navbar-collapse flex-sm-row-reverse" id="headernav">
+            <ul class=" nav navbar-nav menu">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="#">Speakers</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="#">Events</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="#">News</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="#">Contact</a>
+                </li>
+                <li class="search_btn">
+                    <a  href="#">
+                       <i class="ion-ios-search"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</header>
+<!--header end here-->
 
-      <h2 class="section-heading text-center">2nd Annual Bootstrap Denton Mixer</h2>
-
-      <div class="row">
-        <div class="col-md-10 col-md-offset-1">
-
-          <article itemscope itemtype="http://data-vocabulary.org/Event">
-
-            <h2 itemprop="summary" class="hidden">Bootstrap Denton</h2>
-            <div class="row">
-              <div class="col-sm-6 benefit" style="margin-top:0;" data-animation="fadeInDown">
-               <p itemprop="description" style="text-align:left;">Bootstrap Denton is a series of events designed to create networking opportunities, educate entrepreneurs, and support our growing startup community in our great city of Denton.</p>
-               <p>
-                <strong>
-                  <time itemprop="startDate" datetime="2015-08-18T13:30:00-05:00">August 18th, 2015 @ 6:30pm</time>
-                  &ndash;
-                  <time itemprop="endDate" datetime="2015-08-18T16:00:00-05:00">9:00pm</time>
-                </strong>
-              </p>
-              <p itemprop="location" itemscope itemtype="http://data-vocabulary.org/Organization" style="margin-bottom: 20px;">
-                <strong><span itemprop="name">Harvest House</span></strong><br>
-                <span itemprop="address" itemscope itemtype="http://data-vocabulary.org/Address">
-                  <span itemprop="street-address">331 East Hickory Street</span><br>
-                  <span itemprop="locality">Denton</span>,<span itemprop="region">Texas</span> <span itemprop="postal-code">76201</span>
-                </span>
-              </p>
-              <span itemprop="geo" itemscope itemtype="http://data-vocabulary.org/Geo">
-                <meta itemprop="latitude" content="33.215480" />
-                <meta itemprop="longitude" content="-97.128804" />
-              </span>
-            </div>
-            <div class="col-sm-6" data-animation="fadeInUp">
-              <div class="pricing-package pricing-package-featured">
-                <div class="pricing-package-header">
-                  <h4 class="price-title">Schedule</h4>
-                  <div class="price-featured">Timeline Breakdown</div>
+<!--cover section slider -->
+<section id="home" class="home-cover">
+    <div class="cover_slider owl-carousel owl-theme">
+        <div class="cover_item" style="background: url('assets/img/bg/slider.png');">
+             <div class="slider_content">
+                <div class="slider-content-inner">
+                    <div class="container">
+                        <div class="slider-content-center">
+                            <h2 class="cover-title">
+                                Prepare yourself for the
+                            </h2>
+                            <strong class="cover-xl-text">conference</strong>
+                            <p class="cover-date">
+                                12-14 February 2018  - Los Angeles, CA.
+                            </p>
+                            <a href="#" class=" btn btn-primary btn-rounded" >
+                                Buy Tickets Now
+                            </a>
+                        </div>
+                    </div>
                 </div>
-                <ul class="pricing-package-items">
-                  <li><strong>6:30</strong> - Doors Open</li>
-                  <li><strong>7:00-ish</strong> - Opening Talks</li>
-                  <li><strong>7:10-ish</strong> - Organizations</li>
-                  <li><strong>7:40-ish</strong> - Startups Pitch</li>
-                  <li><strong>Until you leave</strong> - Get to know your tech community</li>
-                </ul>
-              </div>
             </div>
-            
-          </div>
-
-        </article>
-
-      </div>
+        </div>
+        <div class="cover_item" style="background: url('assets/img/bg/slider.png');">
+            <div class="slider_content">
+                <div class="slider-content-inner">
+                    <div class="container">
+                        <div class="slider-content-left">
+                            <h2 class="cover-title">
+                                Prepare yourself for the
+                            </h2>
+                            <strong class="cover-xl-text">conference</strong>
+                            <p class="cover-date">
+                                12-14 February 2018  - Los Angeles, CA.
+                            </p>
+                            <a href="#" class=" btn btn-primary btn-rounded" >
+                                Buy Tickets Now
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="cover_item" style="background: url('assets/img/bg/slider.png');">
+            <div class="slider_content">
+                <div class="slider-content-inner">
+                    <div class="container">
+                        <div class="slider-content-center">
+                            <h2 class="cover-title">
+                                Prepare yourself for the
+                            </h2>
+                            <strong class="cover-xl-text">conference</strong>
+                            <p class="cover-date">
+                                12-14 February 2018  - Los Angeles, CA.
+                            </p>
+                            <a href="#" class=" btn btn-primary btn-rounded" >
+                                Buy Tickets Now
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-
-  </div>
-
-</section>
-
-<!-- DESCRIPTION
-  ================================= -->
-  <section id="event" class="about-section section">
-
-    <div class="container">
-
-      <h2 class="section-heading text-center">We Are Bootstrap Denton</h2>
-
-      <div class="about-row row">
-
-        <!-- DESCRIPTION IMAGE -->
-        <div class="about-image col-md-6" data-animation="fadeIn">
-          <img src="/images/contents/techmill-buttons.jpg" alt="TechMill Buttons">
-        </div>
-
-        <!-- DESCRIPTION TEXT -->
-        <div class="about-text col-md-6">
-          <p class="lead">Bootstrap Denton isn't just an event, it represents the character of our community.</p>
-          <p>Denton is known for our creative talent, innovative workforce, and engaged citizens. We are a "Get-It-Done" group of people - scrappy businesses without fear of experimenting to find the next best idea.</p>
-          <ul class="icon-list">
-            <li>
-              <span class="icon-list-icon fa fa-connectdevelop" data-animation="bounceIn"></span>
-              <h4 class="icon-list-title uppercase">Get involved.</h4>
-              <p>Listen to community leaders talk about what they're doing to help put Denton on the map as a technology leader in North Texas.</p>
-            </li>
-            <li>
-              <span class="icon-list-icon fa fa-heart-o" data-animation="bounceIn"></span>
-              <h4 class="icon-list-title">Know your community.</h4>
-              <p>Meet &amp; drink with other creative tech peers in Denton. If you're in need of or looking for creative talent, you'll find it here.</p>
-            </li>
-            <li>
-              <span class="icon-list-icon fa fa-lightbulb-o" data-animation="bounceIn"></span>
-              <h4 class="icon-list-title uppercase">Talk about your ideas.</h4>
-              <p>Collaboration happens here. Find your next co-founder, share your passions, and build something great. </p>
-            </li>
-          </ul>
-        </div>
-
-      </div>
-
-    </div>
-
-  </section>
-
-<!-- VIDEO SECTION
-  ================================= -->
-  <section id="video" class="video-section section-gray section">
-
-    <div class="container">
-
-      <h2 class="section-heading text-center">Event Registration</h2>
-
-      <div class="row">
-        <div class="col-md-12">
-          <div style="width:100%; text-align:left;" >
-            <iframe  src="//eventbrite.com/tickets-external?eid=17232619228&ref=etckt" frameborder="0" height="260" width="100%" vspace="0" hspace="0" marginheight="5" marginwidth="5" scrolling="auto" allowtransparency="true"></iframe>
-            <div style="font-family:Helvetica, Arial; font-size:10px; padding:5px 0 5px; margin:2px; width:100%; text-align:left;" ><a class="powered-by-eb" style="color: #dddddd; text-decoration: none;" target="_blank" href="http://www.eventbrite.com/r/etckt">Powered by Eventbrite</a></div></div>
-          </div>
-      <!--
-      <div class="col-md-10 col-md-offset-1">
-
-        <div class="video-embed"> -->
-
-          <!-- VIDEO EMBED FROM VIMEO -->
-          <!-- <iframe class="video-async" data-source="vimeo" data-video="125621086" data-color="f3ae73" allowfullscreen></iframe> -->
-
-          <!-- VIDEO EMBED FROM YOUTUBE -->
-          <!-- <iframe class="video-async" data-source="youtube" data-video="lzn8z3wYw" allowfullscreen></iframe> -->
-          <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/v-lzn8z3wYw?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe> -->
-
-        <!-- </div>
-
-      </div> -->
-    </div>
-
-  </div>
-</section>
-
-<!-- Speakers
-  ================================= -->
-  <section id="organizations" class="team-section section">
-
-    <div class="container">
-
-      <h2 class="section-heading text-center">Meet The Organizations</h2>
-
-      <div class="team-row row">
-
-        <!-- Opening speaker -->
-        <div class="col-sm-6 col-md-4" data-animation="fadeIn">
-          <div class="speaker">
-            <a href="http://soe2014.thedec.co/" title="Trey Bowles" target="_blank">
-              <img class="team-member-picture desaturate" src="images/speakers/treybowles.jpg" srcset="/images/speakers/treybowles@2x.jpg 2x" alt="Trey Bowles">
-            </a>
-            <div class="team-member-text">
-              <h4 class="team-member-name">Trey Bowles</h4>
-              <div class="team-member-position">Co-Founder &amp; CEO, Dallas Entrepreneur Center</div>
-              <p class="team-member-description">Dallas non-profit providing a central location for entrepreneurs to access education, mentors, capital and PR.</p>
-            </div>
-          </div>
-        </div>
-
-        <!-- SPONSOR SPEAKER -->
-        <div class="col-xs-6 col-md-4 speaker" data-animation="fadeIn">
-          <a href="https://texas.trucrowd.com" title="truCrowd" target="_blank">
-            <img class="team-member-picture desaturate" src="images/speakers/vincentpetrescu.jpg" srcset="/images/speakers/vincentpetrescu@2x.jpg 2x" alt="Vicent Petrescu, truCrowd">
-          </a>
-          <div class="team-member-text">
-            <h4 class="team-member-name">Vicent Petrescu</h4>
-            <div class="team-member-position">CEO, truCrowd Texas</div>
-            <p class="team-member-description">Equity crowdfunding platform that enables Texas entrepreneurs to raise capital from non-accredited investors.</p>
-          </div>
-        </div>
-
-        <!-- SPEAKER 1 -->
-        <div class="col-xs-6 col-md-4 speaker" data-animation="fadeIn">
-          <div class="">
-            <a href="http://twitter.com/techmilldenton" title="TechMill" target="_blank">
-              <img class="team-member-picture desaturate" src="images/speakers/kyletaylor.jpg" srcset="/images/speakers/kyletaylor@2x.jpg 2x" alt="TechMill">
-            </a>
-            <div class="team-member-text">
-              <h4 class="team-member-name">Kyle Taylor</h4>
-              <div class="team-member-position">Community Evangelist, TechMill</div>
-              <p class="team-member-description">TechMill is a local non-profit focused on building, organizing, and advocating the Denton startup scene.</p>
-            </div>
-          </div>
-        </div>
-
-        <!-- SPEAKER 2 -->
-        <div class="col-xs-6 col-md-4 speaker" data-animation="fadeIn">
-          <div class="even">
-            <img class="team-member-picture desaturate" src="/images/speakers/joshberthume.jpg" srcset="/images/speakers/joshberthume@2x.jpg 2x" alt="Josh Berthume, Swash Labs">
-            <div class="team-member-text">
-              <h4 class="team-member-name">Josh Berthume</h4>
-              <div class="team-member-position">The Railyard</div>
-              <p class="team-member-description">CoDenton consists of local technology advocates who share a common vision for Denton as a tech destination.</p>
-            </div>
-          </div>
-        </div>
-
-        <!-- SPEAKER 3 -->
-        <div class="col-xs-6 col-md-4 speaker" data-animation="fadeIn">
-          <div class="">
-            <a href="https://twitter.com/kevinroden" title="Kevin Roden" target="_blank">
-              <img class="team-member-picture desaturate" src="images/speakers/kevin.jpg" srcset="/images/speakers/kevin@2x.jpg 2x" alt="Kevin Roden">
-            </a>
-            <div class="team-member-text">
-              <h4 class="team-member-name">Kevin Roden</h4>
-              <div class="team-member-position">Open Denton / Bloomberg Project</div>
-              <p class="team-member-description">Community initiative that combines civic tech, open data, and citzen engagement in the City of Denton.</p>
-            </div>
-          </div>
-        </div>
-
-        <!-- SPEAKER 4 -->
-        <div class="col-xs-6 col-md-4 speaker" data-animation="fadeIn">
-          <div class="even">
-            <a href="https://twitter.com/startupunt" target="_blank">
-              <img class="team-member-picture desaturate" src="images/speakers/isaacserrata.jpg" srcset="/images/speakers/isaacserrata@2x.jpg 2x" alt="Startup UNT">
-            </a>
-            <div class="team-member-text">
-              <h4 class="team-member-name">Isaac Serrata</h4>
-              <div class="team-member-position">President, Startup UNT</div>
-              <p class="team-member-description">Student organization focused on increasing diversity and empowering student entrepreneurs through social activities and educational workshops.</p>
-            </div>
-          </div>
-        </div>
-
-        <!-- SPEAKER 5 -->
-        <div class="col-xs-6 col-md-4 speaker" data-animation="fadeIn">
-          <div class="">
-            <img class="team-member-picture desaturate" src="images/speakers/ellenlevings.jpg" srcset="/images/speakers/ellenlevings@2x.jpg 2x" alt="Denton Maker Collective">
-            <div class="team-member-text">
-              <h4 class="team-member-name">Ellen Levings</h4>
-              <div class="team-member-position">Chairperson, Denton Maker Collective</div>
-              <p class="team-member-description">Member based creative community workshop and learning center that provides access to tools and shared workspace to facilitate all types of art, craft, and design.</p>
-            </div>
-          </div>
-        </div>
-
-        <!-- SPEAKER 6 -->
-        <div class="col-xs-6 col-md-4 speaker" data-animation="fadeIn">
-          <div class="even">
-            <a href="https://twitter.com/hubandspokecc" target="_blank">
-              <img class="team-member-picture desaturate" src="images/speakers/jillianjordan.jpg" srcset="/images/speakers/jillianjordan@2x.jpg 2x" alt="Jillian Jordan, Hub &amp; Spoke">
-            </a>
-            <div class="team-member-text">
-              <h4 class="team-member-name">Jillian Jordan</h4>
-              <div class="team-member-position">Hub &amp; Spoke Collaborative, LLC.</div>
-              <p class="team-member-description">Hub &amp; Spoke is launching a new project called The Great Seed Bomb - a bike ride benefiting bees, monarch and other pollinators while donating to environmental nonprofits and hyper localizing impact.</p>
-            </div>
-          </div>
-        </div>
-
-
-        <!-- SPEAKER 6 -->
-        <div class="col-xs-6 col-md-4 speaker" data-animation="fadeIn">
-          <div class="">
-            <a href="http://dentonmakerfaire.com/" target="_blank">
-              <img class="team-member-picture desaturate" src="images/speakers/heathergregory.jpg" srcset="/images/speakers/heathergregory@2x.jpg 2x" alt="Heather Gregory, Denton Mini Maker Faire">
-            </a>
-            <div class="team-member-text">
-              <h4 class="team-member-name">Heather Gregory</h4>
-              <div class="team-member-position">President/Director, Denton Mini Maker Faire &amp; SCRAP Denton</div>
-              <p class="team-member-description">A family-friendly showcase of invention, creativity and resourcefulness, and a celebration of the Maker Movement.</p>
-            </div>
-          </div>
-        </div>
-
-      </div>
-
-    </div>
-
-  </section>
-
-<!-- TWO COLS DESCRIPTION SECTION
-  ================================= -->
-<!-- <section id="two-cols-description" class="two-cols-description-section section-accent section">
-
-  <div class="container-fluid two-cols-description-row">
-
-
-    <div class="two-cols-description-text" data-animation="fadeInLeft">
-
-      <div class="two-cols-description-text-inner">
-
-        <h2 class="section-heading text-left">Two Columns Section</h2>
-
-        <p>You can put image / video embed in the column to the right. If you like, you can also swap the columns, which means this text column will be on the right hand side, while the image column is on the left. While on this column, you may want to put some description paragraphs or a nice list like below:</p>
-
-        <ul class="nice-list">
-          <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-          <li>Sed feugiat arcu ut orci porta, eget porttitor felis suscipit.</li>
-          <li>Sed a nisl ullamcorper, tempus augue at, rutrum lacus. Duis et turpis eros.</li>
+    <div class="cover_nav">
+        <ul class="cover_dots">
+            <li class="active" data="0"><span>1</span></li>
+            <li  data="1"><span>2</span></li>
+            <li  data="2"><span>3</span></li>
         </ul>
-
-      </div>
-
     </div>
+</section>
+<!--cover section slider end -->
 
-
-    <div class="two-cols-description-image" data-animation="fadeInRight">
-      <img src="images/backgrounds/two-cols-description-bg.jpg" alt="">
-    </div>
-
-  </div>
-
-</section> -->
-
-
-
-<!-- NUMBERS
-  ================================= -->
-  <section id="numbers" class="numbers-section section-dark section">
-
-    <div class="section-background">
-
-      <!-- IMAGE BACKGROUND -->
-      <div class="section-background-image parallax" data-stellar-ratio="0.4">
-        <img src="images/backgrounds/whiteboard-harvest.jpg" style="opacity: 0.2;">
-      </div>
-
-    </div>
-
+<!--event info -->
+<section class="pt100 pb100">
     <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-6 col-md-3  ">
+                <div class="icon_box_two">
+                    <i class="ion-ios-calendar-outline"></i>
+                    <div class="content">
+                        <h5 class="box_title">
+                            DATE
+                        </h5>
+                        <p>
+                            12-14 february 2018
+                        </p>
+                    </div>
+                </div>
+            </div>
 
-      <h2 class="section-heading text-center">Denton Startups in 2014</h2>
+            <div class="col-6 col-md-3  ">
+                <div class="icon_box_two">
+                    <i class="ion-ios-location-outline"></i>
+                    <div class="content">
+                        <h5 class="box_title">
+                            location
+                        </h5>
+                        <p>
+                            Los Angeles, CA.
+                        </p>
+                    </div>
+                </div>
+            </div>
 
-      <div class="numbers-row row">
+            <div class="col-6 col-md-3  ">
+                <div class="icon_box_two">
+                    <i class="ion-ios-person-outline"></i>
+                    <div class="content">
+                        <h5 class="box_title">
+                            speakers
+                        </h5>
+                        <p>
+                            Natalie James
+                            + guests
+                        </p>
+                    </div>
+                </div>
+            </div>
 
-        <!-- NUMBERS - ITEM 1 -->
-        <div class="col-sm-6 col-md-3">
-          <div class="numbers-item">
-            <div class="numbers-item-counter"><span class="counter-up">180</span>+ <span class="fa fa-ticket"></span></div>
-            <div class="numbers-item-caption">Tickets Registered</div>
-          </div>
+            <div class="col-6 col-md-3  ">
+                <div class="icon_box_two">
+                    <i class="ion-ios-pricetag-outline"></i>
+                    <div class="content">
+                        <h5 class="box_title">
+                            tikets
+                        </h5>
+                        <p>
+                            $65 early bird
+                        </p>
+                    </div>
+                </div>
+            </div>
         </div>
-
-        <!-- NUMBERS - ITEM 2 -->
-        <div class="col-sm-6 col-md-3">
-          <div class="numbers-item">
-            <div class="numbers-item-counter"><span class="counter-up">77</span>+ <span class="fa fa-calendar"></span></div>
-            <div class="numbers-item-caption">Meetups &amp; Events</div>
-          </div>
-        </div>
-
-        <!-- NUMBERS - ITEM 3 -->
-        <div class="col-sm-6 col-md-3">
-          <div class="numbers-item">
-            <div class="numbers-item-counter">$<span class="counter-up">220</span>k <span class="fa fa-money"></span></div>
-            <div class="numbers-item-caption">in Innovation District</div>
-          </div>
-        </div>
-
-        <!-- NUMBERS - ITEM 4 -->
-        <div class="col-sm-6 col-md-3">
-          <div class="numbers-item">
-            <div class="numbers-item-counter"><span class="counter-up">1,000</span>+ <span class="fa fa-coffee"></span></div>
-            <div class="numbers-item-caption">Coffees Served</div>
-          </div>
-        </div>
-
-      </div>
-
     </div>
+</section>
+<!--event info end -->
 
-  </section>
 
-<!-- Startups
-  ================================= -->
-  <section id="startups" class="team-section section section-dark">
-
+<!--event countdown -->
+<section class="bg-img pt70 pb70" style="background-image: url('assets/img/bg/bg-img.png');">
+    <div class="overlay_dark"></div>
     <div class="container">
-
-      <h2 class="section-heading text-center">Meet The Startups</h2>
-
-      <div class="team-row row">
-
-        <!-- Startup 1 -->
-        <div class="col-sm-6 col-md-3 col-lg-3" data-animation="fadeIn">
-          <div class="speaker">
-            <a href="http://www.drawattention.co" alt="Eric Swayne, DrawAttention" title="Eric Swayne, DrawAttention" target="_blank">
-              <img class="team-member-picture desaturate" src="images/speakers/ericswayne.jpg" srcset="/images/speakers/ericswayne@2x.jpg 2x" alt="Eric Swayne">
-            </a>
-            <div class="team-member-text">
-              <h4 class="team-member-name">Eric Swayne</h4>
-              <div class="team-member-position">Co-Founder, DrawAttention</div>
-              <p class="team-member-description">DrawAttention sells whiteboard stickers that fund additional projects and the Denton startup community.</p>
+        <div class="row justify-content-center">
+            <div class="col-12 col-md-10">
+                <h4 class="mb30 text-center color-light">Counter until the big event</h4>
+                <div class="countdown"></div>
             </div>
-          </div>
         </div>
-
-        <!-- SPEAKER 2 -->
-        <div class="col-sm-6 col-md-3 col-lg-3" data-animation="fadeIn">
-          <div class="speaker even">
-            <a href="http://www.kubos.co/" alt="Tyler Browder, Kubos" title="Tyler Browder, Kubos" target="_blank">
-              <img class="team-member-picture desaturate" src="/images/speakers/tylerbrowder.jpg" srcset="/images/speakers/tylerbrowder@2x.jpg 2x" alt="Tyler Browder">
-            </a>
-            <div class="team-member-text">
-              <h4 class="team-member-name">Tyler Browder</h4>
-              <div class="team-member-position">COO &amp; Co-founder, Kubos</div>
-              <p class="team-member-description">Kubos believes that space should be accessible to everyone, and is building our open-source platform to meet that goal.</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="hidden-md hidden-lg clear"></div>
-
-        <!-- SPEAKER 3 -->
-        <div class="col-sm-6 col-md-3 col-lg-3" data-animation="fadeIn">
-          <div class="speaker">
-            <a href="http://readyrosie.com" alt="Emily Roden, Ready Rosie" title="Emily Roden, Ready Rosie" target="_blank">
-              <img class="team-member-picture desaturate" src="images/speakers/emilyroden.jpg" srcset="/images/speakers/emilyroden@2x.jpg 2x" alt="Emily Roden">
-            </a>
-            <div class="team-member-text">
-              <h4 class="team-member-name">Emily Roden</h4>
-              <div class="team-member-position">Co-Founder, Ready Rosie</div>
-              <p class="team-member-description">ReadyRosie is an online resource that provides daily activities for adults to do with children ages zero to four.</p>
-            </div>
-          </div>
-        </div>
-
-        <!-- SPEAKER 4 -->
-        <div class="col-sm-6 col-md-3 col-lg-3" data-animation="fadeIn">
-          <div class="speaker">
-            <a href="http://form.io" alt="Travis Tidwell, Form.io" title="Travis Tidwell, Form.io" target="_blank">
-              <img class="team-member-picture desaturate" src="images/speakers/travistidwell.jpg" srcset="/images/speakers/travistidwell@2x.jpg 2x" alt="Travis Tidwell">
-            </a>
-            <div class="team-member-text">
-              <h4 class="team-member-name">Travis Tidwell</h4>
-              <div class="team-member-position">Co-Founder &amp; CTO, Form.io</div>
-              <p class="team-member-description">&lt;form.io&gt; is a platform that enables developers to rapidly build modern web and mobile applications.</p>
-            </div>
-          </div>
-        </div>
-
-      </div>
-
     </div>
+</section>
+<!--event count down end-->
 
-  </section>
 
-<!-- Sponsors
-  ================================= -->
-  <section id="sponsors" class="section">
-
+<!--about the event -->
+<section class="pt100 pb100">
     <div class="container">
-
-      <h2 class="section-heading text-center">Community Partners</h2>
-
-      <div class="row">
-        <div class="col-md-10 col-md-offset-1">
-          <p class="headline-text no-after no-before">
-            Bootstrap Denton wouldn't be possible without the help of our community partners. From the venues we host our events to the people who put them on, everyone makes a difference when contributing to the growth of our community.
-          </p>
+        <div class="section_title">
+            <h3 class="title">
+                About the event
+            </h3>
         </div>
-      </div>
-
-      <div class="row text-center">
-
-        <!-- Sponsor 1 -->
-        <div class="col-xs-6 col-md-2 col-md-offset-1" data-animation="fadeIn">
-          <div class="sponsor">
-            <a href="http://techmill.co" title="TechMill" target="_blank">
-              <img class="team-member-picture" src="images/speakers/techmill.jpg" srcset="/images/speakers/techmill@2x.jpg 2x" alt="TechMill">
-            </a>
-            <div class="team-member-text">
-              <h4 class="team-member-name">TechMill</h4>
-              <!-- <p class="team-member-description"></p> -->
+        <div class="row justify-content-center">
+            <div class="col-12 col-md-6">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing eli. Integer iaculis in lacus a sollicitudin. Ut hendrerit hendrerit nisl a accumsan. Pellentesque convallis consectetur tortor id placerat. Curabitur a pulvinar nunc. Maecenas laoreet finibus lectus, at volutpat ligula euismod.
+                </p>
             </div>
-          </div>
-        </div>
-
-        <div class="col-xs-6 col-md-2" data-animation="fadeIn">
-          <div class="corner-ribbon even">
-            <div class="ribbon-text"><span>Sponsor</span></div>
-            <div class="sponsor">
-              <a href="https://texas.trucrowd.com" title="truCrowd" target="_blank">
-                <img class="team-member-picture" src="images/speakers/trucrowd.jpg" srcset="/images/speakers/trucrowd@2x.jpg 2x" alt="truCrowd">
-              </a>
-              <div class="team-member-text">
-                <h4 class="team-member-name">truCrowd</h4>
-                <!-- <p class="team-member-description"></p> -->
-              </div>
+            <div class="col-12 col-md-6">
+                <p>
+                    In rhoncus massa nec  sollicitudin. Ut hendrerit hendrerit nisl a accumsan. Pellentesque convallis consectetur tortor id placerat. Curabitur a pulvinar nunc. Maecenas laoreet finibus lectus, at volutpat ligula euismod quis. Maecenas ornare, ex in malesuada tempus.
+                </p>
             </div>
-          </div>
         </div>
 
-        <div class="col-xs-6 col-md-2" data-animation="fadeIn">
-          <div class="sponsor">
-            <a href="http://www.drawattention.co" title="DrawAttention" target="_blank">
-              <img class="team-member-picture" src="images/speakers/drawattention.jpg" srcset="/images/speakers/drawattention@2x.jpg 2x" alt="DrawAttention">
-            </a>
-            <div class="team-member-text">
-              <h4 class="team-member-name">DrawAttention</h4>
-              <!-- <p class="team-member-description"></p> -->
+        <!--event features-->
+        <div class="row justify-content-center mt30">
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="icon_box_one">
+                    <i class="lnr lnr-mic"></i>
+                    <div class="content">
+                        <h4>9 Speakers</h4>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. In rhoncus massa nec graviante.
+                        </p>
+                        <a href="#">read more</a>
+                    </div>
+                </div>
             </div>
-          </div>
-        </div>
 
-        <div class="col-xs-6 col-md-2" data-animation="fadeIn">
-          <div class="sponsor">
-            <a href="http://www.panector.com" title="Harvest House" target="_blank">
-              <img class="team-member-picture" src="images/speakers/panector.jpg" srcset="/images/speakers/panector@2x.jpg 2x" alt="Pan Ector">
-            </a>
-            <div class="team-member-text">
-              <h4 class="team-member-name">Pan Ector</h4>
-              <!-- <p class="team-member-description"></p> -->
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="icon_box_one">
+                    <i class="lnr lnr-rocket"></i>
+                    <div class="content">
+                        <h4>8 hrs Marathon</h4>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. In rhoncus massa nec graviante.
+                        </p>
+                        <a href="#">read more</a>
+                    </div>
+                </div>
             </div>
-          </div>
-        </div>
 
-        <div class="col-xs-6 col-md-2" data-animation="fadeIn">
-          <div class="sponsor">
-            <a href="http://www.dentonharvesthouse.com" title="Harvest House" target="_blank">
-              <img class="team-member-picture" src="images/speakers/harvesthouse.jpg" srcset="/images/speakers/harvesthouse@2x.jpg 2x" alt="Harvest House">
-            </a>
-            <div class="team-member-text">
-              <h4 class="team-member-name">Harvest House</h4>
-              <!-- <p class="team-member-description"></p> -->
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="icon_box_one">
+                    <i class="lnr lnr-bullhorn"></i>
+                    <div class="content">
+                        <h4>Live Broadcast</h4>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. In rhoncus massa nec graviante.
+                        </p>
+                        <a href="#">read more</a>
+                    </div>
+                </div>
             </div>
-          </div>
+
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="icon_box_one">
+                    <i class="lnr lnr-clock"></i>
+                    <div class="content">
+                        <h4>Early Bird</h4>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. In rhoncus massa nec graviante.
+                        </p>
+                        <a href="#">read more</a>
+                    </div>
+                </div>
+            </div>
         </div>
-
-      </div>
-
+        <!--event features end-->
     </div>
+</section>
+<!--about the event end -->
 
-  </section>
 
-
-<!-- FAQ
-  ================================= -->
-  <section id="faq" class="faq-section section section-dark">
-
+<!--speaker section-->
+<section class="pb100">
     <div class="container">
-
-      <h2 class="section-heading text-center">What to expect</h2>
-
-      <div class="faq-row row text-center">
-
-        <div class="col-md-6">
-          <div class="faq-item">
-            <h4 class="faq-item-heading uppercase">
-              <span class="faq-item-icon-inline fa fa-users"></span> Local speakers
-            </h4>
-            <div class="faq-item-text">Listen to our community leaders and get to know our North Texas tech community. There's more of us than you'd think.</div>
-          </div>
+        <div class="section_title mb50">
+            <h3 class="title">
+               our speakers
+            </h3>
         </div>
-
-        <div class="col-md-6">
-          <div class="faq-item">
-            <h4 class="faq-item-heading uppercase">
-              <span class="faq-item-icon-inline fa fa-cutlery"></span> Food (Truck)
-            </h4>
-            <div class="faq-item-text">Oh yes, there will be tacos. Harvest House just opened a brand new food truck for you to stress test.</div>
-          </div>
-        </div>
-
-        <div class="col-md-6">
-          <div class="faq-item">
-            <h4 class="faq-item-heading uppercase">
-              <span class="faq-item-icon-inline fa fa-beer"></span> Free Drinks
-            </h4>
-            <div class="faq-item-text">Hungry for knowledge, but thirsty for beer? The first drink is on us! Sponsored by TruCrowd and DrawAttention.</div>
-          </div>
-        </div>
-
-        <div class="col-md-6">
-          <div class="faq-item">
-            <h4 class="faq-item-heading uppercase">
-              <span class="faq-item-icon-inline fa fa-comments"></span> Shops and Freelancers
-            </h4>
-            <div class="faq-item-text">Our city is home to world-renowned creative tech talent. Mingle &amp; talk with local creatives and agencies in the area.</div>
-          </div>
-        </div>
-
-
-        <div class="col-md-6">
-          <div class="faq-item">
-            <span class="faq-item-icon-inline fa fa-shirtsinbulk" data-toggle="modal" data-target="#panEctorModal"></span>
-            <h4 class="faq-item-heading uppercase">Screen printing</h4>
-            <div class="faq-item-text">Shirts you say? <a href="http://www.panector.com/" title="Pan Ector Industries">Pan Ector</a> will set up shop printing Denton tech shirts! Bootstrap Denton, Open Coffee Club, TechMill, etc.</div>
-          </div>
-        </div>
-
-        <!-- Modal -->
-        <div class="modal fade" id="panEctorModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-          <div class="modal-dialog" role="document">
-            <div class="modal-content">
-              <img src="/images/pan-ector-by-jewel.jpg" alt="Pan Ector printing shirts at last year's event.">
-            </div>
-          </div>
-        </div>
-
-        <div class="col-md-6">
-          <div class="faq-item">
-            <span class="faq-item-icon-inline fa fa-camera"></span>
-            <h4 class="faq-item-heading uppercase">Live Streaming</h4>
-            <div class="faq-item-text">Periscope, Meerkat? Doesn't matter, we'll have something running for those of you unable to make it out.</div>
-          </div>
-        </div>
-
-      </div>
-
     </div>
+    <div class="row justify-content-center no-gutters">
+        <div class="col-md-3 col-sm-6">
+            <div class="speaker_box">
+                <div class="speaker_img">
+                    <img src="assets/img/speakers/s1.png" alt="speaker name">
+                    <div class="info_box">
+                        <h5 class="name">Patricia Stone</h5>
+                        <p class="position">CEO Company</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+            <div class="speaker_box">
+                <div class="speaker_img">
+                    <img src="assets/img/speakers/s2.png" alt="speaker name">
+                    <div class="info_box">
+                        <h5 class="name">James Oliver</h5>
+                        <p class="position">CEO Company</p>
+                    </div>
+                </div>
+            </div>
 
-  </section>
+        </div>
+        <div class="col-md-3 col-sm-6">
+            <div class="speaker_box">
+                <div class="speaker_img">
+                    <img src="assets/img/speakers/s3.png" alt="speaker name">
+                    <div class="info_box">
+                        <h5 class="name">Carla Banks</h5>
+                        <p class="position">CEO Company</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+            <div class="speaker_box">
+                <div class="speaker_img">
+                    <img src="assets/img/speakers/s4.png" alt="speaker name">
+                    <div class="info_box">
+                        <h5 class="name">William Smith</h5>
+                        <p class="position">CEO Company</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+            <div class="speaker_box">
+                <div class="speaker_img">
+                    <img src="assets/img/speakers/s5.png" alt="speaker name">
+                    <div class="info_box">
+                        <h5 class="name">Jessica Black</h5>
+                        <p class="position">CEO Company</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+            <div class="speaker_box">
+                <div class="speaker_img">
+                    <img src="assets/img/speakers/s6.png" alt="speaker name">
+                    <div class="info_box">
+                        <h5 class="name">Patricia Stone</h5>
+                        <p class="position">CEO Company</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+            <div class="speaker_box">
+                <div class="speaker_img">
+                    <img src="assets/img/speakers/s7.png" alt="speaker name">
+                    <div class="info_box">
+                        <h5 class="name">Duncan Stan</h5>
+                        <p class="position">CEO Company</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+            <div class="speaker_box">
+                <div class="speaker_img">
+                    <img src="assets/img/speakers/s8.png" alt="speaker name">
+                    <div class="info_box">
+                        <h5 class="name">Patricia Stone</h5>
+                        <p class="position">CEO Company</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--speaker section end -->
+
+<!--Price section-->
+<section class="pb100">
+    <div class="container">
+        <div class="section_title mb50">
+            <h3 class="title">
+                Pricing table
+            </h3>
+        </div>
+
+        <div class="row justify-content-center">
+            <div class="col-md-4 col-12">
+                <div class="price_box active">
+                    <div class="price_highlight">
+                        recommended
+                    </div>
+                   <div class="price_header">
+                       <h4>
+                           Early Bird
+                       </h4>
+                       <h6>
+                           For the fast ones
+                       </h6>
+                   </div>
+                    <div class="price_tag">
+                        65 <sup>$</sup>
+                    </div>
+                    <div class="price_features">
+                        <ul>
+                            <li>
+                                Early Entrance
+                            </li>
+                            <li>
+                                Front seat
+                            </li>
+                            <li>
+                                Complementary Drinks
+                            </li>
+                            <li>
+                                Promo Gift
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="price_footer">
+                        <a href="#" class="btn btn-primary btn-rounded">Purchase</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-12">
+                <div class="price_box">
+                    <div class="price_header">
+                        <h4>
+                            Start up
+                        </h4>
+                        <h6>
+                            For the begginers
+                        </h6>
+                    </div>
+                    <div class="price_tag">
+                        85 <sup>$</sup>
+                    </div>
+                    <div class="price_features">
+                        <ul>
+                            <li>
+                                Early Entrance
+                            </li>
+                            <li>
+                                Front seat
+                            </li>
+                            <li>
+                                Complementary Drinks
+                            </li>
+                            <li>
+                                Promo Gift
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="price_footer">
+                        <a href="#" class="btn btn-primary btn-rounded">Purchase</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-12">
+                <div class="price_box">
+                    <div class="price_header">
+                        <h4>
+                            Corporate
+                        </h4>
+                        <h6>
+                            For the business
+                        </h6>
+                    </div>
+                    <div class="price_tag">
+                        95 <sup>$</sup>
+                    </div>
+                    <div class="price_features">
+                        <ul>
+                            <li>
+                                Early Entrance
+                            </li>
+                            <li>
+                                Front seat
+                            </li>
+                            <li>
+                                Complementary Drinks
+                            </li>
+                            <li>
+                                Promo Gift
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="price_footer">
+                        <a href="#" class="btn btn-primary btn-rounded">Purchase</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--price section end -->
+
+<!--event calender-->
+<section class="pb100">
+    <div class="container">
+        <div class="table-responsive">
+            <table class="event_calender table">
+                <thead class="event_title">
+                <tr>
+                    <th>
+                        <i class="ion-ios-calendar-outline"></i>
+                        <span>next events calendar</span>
+                    </th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>
+                        <img src="assets/img/cleander/c1.png" alt="event">
+                    </td>
+                    <td class="event_date">
+                        14
+                        <span>February</span>
+                    </td>
+                    <td>
+                        <div class="event_place">
+                            <h5>Conference in Amsterdam</h5>
+                            <h6>08 AM - 04 PM</h6>
+                            <p>Speaker: Daniel Hill</p>
+                        </div>
+                    </td>
+                    <td>
+                        <a href="#" class="btn btn-primary btn-rounded">Read More</a>
+                    </td>
+                    <td class="buy_link">
+                        <a href="#">buy now</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="assets/img/cleander/c2.png" alt="event">
+                    </td>
+                    <td class="event_date">
+                        18
+                        <span>February</span>
+                    </td>
+                    <td>
+                        <div class="event_place">
+                            <h5>Conference in Amsterdam</h5>
+                            <h6>08 AM - 04 PM</h6>
+                            <p>Speaker: Daniel Hill</p>
+                        </div>
+                    </td>
+                    <td>
+                        <a href="#" class="btn btn-primary btn-rounded">Read More</a>
+                    </td>
+                    <td class="buy_link">
+                        <a href="#">buy now</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="assets/img/cleander/c3.png" alt="event">
+                    </td>
+                    <td class="event_date">
+                        22
+                        <span>February</span>
+                    </td>
+                    <td>
+                        <div class="event_place">
+                            <h5>Conference in Amsterdam</h5>
+                            <h6>08 AM - 04 PM</h6>
+                            <p>Speaker: Daniel Hill</p>
+                        </div>
+                    </td>
+                    <td>
+                        <a href="#" class="btn btn-primary btn-rounded">Read More</a>
+                    </td>
+                    <td class="buy_link">
+                        <a href="#">buy now</a>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</section>
+<!--event calender end -->
+
+<!--brands section -->
+<section class="bg-gray pt100 pb100">
+    <div class="container">
+        <div class="section_title mb50">
+            <h3 class="title">
+                our partners
+            </h3>
+        </div>
+        <div class="brand_carousel owl-carousel">
+            <div class="brand_item text-center">
+                <img src="assets/img/brands/b1.png" alt="brand">
+            </div>
+            <div class="brand_item text-center">
+                <img src="assets/img/brands/b2.png" alt="brand">
+            </div>
+
+            <div class="brand_item text-center">
+                <img src="assets/img/brands/b3.png" alt="brand">
+            </div>
+            <div class="brand_item text-center">
+                <img src="assets/img/brands/b4.png" alt="brand">
+            </div>
+            <div class="brand_item text-center">
+                <img src="assets/img/brands/b5.png" alt="brand">
+            </div>
+        </div>
+    </div>
+</section>
+<!--brands section end-->
+
+<!--get tickets section -->
+<section class="bg-img pt100 pb100" style="background-image: url('assets/img/bg/tickets.png');">
+    <div class="container">
+        <div class="section_title mb30">
+            <h3 class="title color-light">
+                GEt your tikets
+            </h3>
+        </div>
+        <div class="row justify-content-center align-items-center">
+            <div class="col-md-9 text-md-left text-center color-light">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. In rhoncus massa nec gravida tempus. Integer iaculis in aazzzCurabitur a pulvinar nunc. Maecenas laoreet finibus lectus, at volutpat ligula euismod.
+            </div>
+            <div class="col-md-3 text-md-right text-center">
+                <a href="#" class="btn btn-primary btn-rounded mt30">buy now</a>
+            </div>
+        </div>
+    </div>
+</section>
+<!--get tickets section end-->
+
+<!--footer start -->
+<footer>
+    <div class="container">
+        <div class="row justify-content-center">
+
+            <div class="col-md-4 col-12">
+                <div class="footer_box">
+                    <div class="footer_header">
+                        <div class="footer_logo">
+                            <img src="assets/img/logo.png" alt="evento">
+                        </div>
+                    </div>
+                    <div class="footer_box_body">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. In rhoncus massa nec gravida tempus. Integer iaculis in aazzzCurabitur a pulvinar nunc. Maecenas laoreet finibus lectus, at volutpat ligula euismod.
+                        </p>
+                        <ul class="footer_social">
+                            <li>
+                                <a href="#"><i class="ion-social-pinterest"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="ion-social-facebook"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="ion-social-twitter"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="ion-social-dribbble"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="ion-social-instagram"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-4">
+                <div class="footer_box">
+                    <div class="footer_header">
+                        <h4 class="footer_title">
+                            instagram
+                        </h4>
+                    </div>
+                    <div class="footer_box_body">
+                        <ul class="instagram_list">
+                            <li>
+                                <a href="#">
+                                    <img src="assets/img/cleander/c1.png" alt="instagram">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="assets/img/cleander/c2.png" alt="instagram">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="assets/img/cleander/c3.png" alt="instagram">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="assets/img/cleander/c3.png" alt="instagram">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="assets/img/cleander/c2.png" alt="instagram">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="assets/img/cleander/c1.png" alt="instagram">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-4">
+                <div class="footer_box">
+                    <div class="footer_header">
+                        <h4 class="footer_title">
+                            subscribe to our newsletter
+                        </h4>
+                    </div>
+                    <div class="footer_box_body">
+                        <div class="newsletter_form">
+                            <input type="email" class="form-control" placeholder="E-Mail here">
+                            <button class="btn btn-rounded btn-block btn-primary">SUBSCRIBE</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<div class="copyright_footer">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-6 col-12">
+                <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+            </div>
+            <div class="col-12 col-md-6 ">
+                <ul class="footer_menu">
+                    <li>
+                        <a href="#">Home</a>
+                    </li>
+                    <li>
+                        <a href="#">Speakers</a>
+                    </li>
+                    <li>
+                        <a href="#">Events</a>
+                    </li>
+                    <li>
+                        <a href="#">News</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<!--footer end -->
+
+<!-- jquery -->
+<script src="assets/js/jquery.min.js"></script>
+<!-- bootstrap -->
+<script src="assets/js/popper.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/waypoints.min.js"></script>
+<!--slick carousel -->
+<script src="assets/js/owl.carousel.min.js"></script>
+<!--parallax -->
+<script src="assets/js/parallax.min.js"></script>
+<!--Counter up -->
+<script src="assets/js/jquery.counterup.min.js"></script>
+<!--Counter down -->
+<script src="assets/js/jquery.countdown.min.js"></script>
+<!-- WOW JS -->
+<script src="assets/js/wow.min.js"></script>
+<!-- Custom js -->
+<script src="assets/js/main.js"></script>
+</body>
+</html>
