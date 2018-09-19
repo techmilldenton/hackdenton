@@ -75,8 +75,8 @@ description: Hack Denton is Denton's first civic technology hackathon <br> focus
     "price": "15.00",
     "priceCurrency": "USD",
     "availability": "http://schema.org/InStock",
-    "validFrom": "09/10/2018"
-    "image": "images/og.jpg",
+    "validFrom": "09/10/2018",
+    "image": "images/og.jpg"
   }
 }
  </script>
